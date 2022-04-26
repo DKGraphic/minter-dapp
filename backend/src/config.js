@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Pixyghost";
-const description = "Pixyghost is a collection of 5,000 randomly generated NFTs that exist on the Polygon Blockchain.in order to reduce gas fees minted on the Polygon chain. Pixyghost holders can participate in exclusive events such as NFT claims, community giveaways, and more. All Ghosts are more Unique than others. Visit www.pixyghost.xyz to learn more.";
+const description = "Pixyghost is a collection of 5,000 randomly generated NFTs that exist on the Polygon Blockchain. Pixyghost holders can participate in exclusive events such as NFT claims, community giveaways, and more. Visit www.pixyghost.xyz to learn more.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -32,8 +32,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 300,
+  height: 300,
   smoothing: false,
 };
 
