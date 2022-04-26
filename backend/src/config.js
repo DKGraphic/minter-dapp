@@ -42,7 +42,6 @@ const extraMetadata = {
 };
 
 // NFTPort Info
-
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
