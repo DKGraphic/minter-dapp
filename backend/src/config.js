@@ -92,12 +92,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "PG",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://pixyghost.xyz",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x43Ae5E3642e874227A56216b15AC9a0c988FE159",
       share: 100,
     },
   ],
