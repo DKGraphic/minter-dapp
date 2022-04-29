@@ -61,6 +61,17 @@ header .container {
   align-items: center;
 }
 
+/* CENTER LOGO */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-block: 2%;
+  width: 20%;
+  border-radius: 50%;
+}
+
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
