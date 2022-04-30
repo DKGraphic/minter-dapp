@@ -115,7 +115,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: medium;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
