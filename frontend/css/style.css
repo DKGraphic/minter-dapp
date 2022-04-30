@@ -64,7 +64,7 @@ header .container {
 /* CENTER LOGO */
 
 .center {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-block: 2%;
