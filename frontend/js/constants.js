@@ -1,7 +1,7 @@
 const contractAddress = "0x5895b349a9702b8beb1D135EB82Db142892D6Af8"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Pixyghost!!!";
+const welcome_h1 = "Welcome to Pixyghost!!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'Pixyghost is a collection of 5,000 randomly generated NFTs that exist on the Polygon Blockchain. Pixyghost holders can participate in exclusive events such as NFT claims, community giveaways, and more.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
