@@ -8,12 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #000000;
-  --bg-color-transparent: #00000080;
+  --bg-color: #00163f;
+  --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
-  --btn-bg-color: #ffd000;
-  --accent-color: #4d4d4d;
-  --h1-color: #ffd000;
+  --btn-bg-color: #ffffff;
+  --accent-color: #be7efe;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -28,7 +27,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 125vh;
+  height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -62,25 +61,14 @@ header .container {
   align-items: center;
 }
 
-/* CENTER LOGO */
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-block: 1%;
-  width: 25%;
-  border-radius: 50%;
-}
-
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 0 35vw;
   opacity: 0;
-  transform: translateY(0);
+  transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
 }
 
@@ -91,7 +79,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: bold;
+  font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
