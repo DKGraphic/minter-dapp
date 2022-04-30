@@ -12,7 +12,7 @@
   --bg-color-transparent: #00000080;
   --font-color: #ffffff;
   --btn-bg-color: #ffd900;
-  --accent-color: #000000;
+  --accent-color: #616161;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -312,16 +312,6 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
-}
-
-
-
-/* SPINNER */
-.dot-spin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(3);
 }
 
 /* MEDIA QUERIES */
