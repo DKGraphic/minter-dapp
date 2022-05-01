@@ -64,11 +64,11 @@ header .container {
 /* CENTER LOGO */
 
 .center {
-  display: inline-block;
+  display: block;
   margin: 20px 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 30%;
   border-radius: 50%;
 }
 
