@@ -74,11 +74,10 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
+  display: inline-block;
   align-items: center;
   height: 1000%;
   text-align: center;
-  margin: 0 auto;
-  opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
 }
@@ -92,7 +91,7 @@ header .container {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: bold;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .not-connected p {
