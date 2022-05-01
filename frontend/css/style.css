@@ -68,15 +68,16 @@ header .container {
   margin: 20px 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 35%;
   border-radius: 50%;
 }
 
 /* NOT CONNECTED */
 .not-connected {
   display: inline-block;
+  box-sizing: 200%;
   align-items: center;
-  height: 1000%;
+  height: 3000%;
   text-align: center;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
