@@ -64,17 +64,18 @@ header .container {
 /* CENTER LOGO */
 
 .center {
-  display: flex;
+  display: inline-block;
+  margin: 20px 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 30%;
   border-radius: 50%;
 }
 
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  height: 100%;
+  height: 1000%;
   text-align: center;
   margin: 0 auto;
   opacity: 0;
