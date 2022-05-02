@@ -62,7 +62,7 @@ const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single
 const PUBLIC_MINT_START_DATE = "2022-06-01T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-01T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x43Ae5E3642e874227A56216b15AC9a0c988FE159"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -76,7 +76,7 @@ let CONTRACT_ADDRESS = "0x5895b349a9702b8beb1D135EB82Db142892D6Af8"; // If you w
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "The Ghost will choose you!"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeidyn3kgsxl4w5nxbzjvnhbfc4m55zs46ganwzxrdornhmg6xisa4a"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreicati7oagi7fmf2rn5ppnkj2l7omq4ak4ziwzsr3lkc3clifesndu"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
